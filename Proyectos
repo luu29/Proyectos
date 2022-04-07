@@ -1,0 +1,30 @@
+#EJERCICIO 1#
+nombre_completo = 'Michael Jordan'
+edad = 50
+media_puntos = 28.5
+activo = 'false'
+who = str(nombre_completo) + ', ' + str(edad) + ', ' + str(media_puntos) + ', ' + str(activo)
+
+#EJERCIO 2#
+#Nombre = input('Nombre:')
+#DNI = int(input('DNI:'))
+#Edad = int(input('Edad:'))
+
+#EJERCICIO 3#
+#palabra_o_frase = input('palabra o frase:')
+#long = len(palabra_o_frase)
+#print(palabra_o_frase[0:3] + palabra_o_frase[long-3:long])
+
+#EJERCICIO 4#
+#frase = input('Inserte una frase:')
+#long = len(frase)
+#posicion = int(input('Posición:'))
+#longitud = int(input('Longitud:'))
+#llegada = posicion + longitud
+#print(frase[posicion:llegada])
+
+#EJERCICIO 5#
+frase = input('Inserte una frase:')
+letra = input('Letra que quiere remplazar:')
+remplazo = input('Letra remplazo:')
+print(str(frase).find(letra)
